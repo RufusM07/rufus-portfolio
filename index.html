@@ -10,8 +10,9 @@
 <body>
   <header>
     <h2>Rufus Muthusamy</h2>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
     <nav>
-      <ul>
+      <ul id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="education.html">Education</a></li>
@@ -30,7 +31,7 @@
         <p class="subheading">
           An Electrical & Computer Engineering Graduate Student at Rutgers University, New Brunswick
         </p>
-        <p class="description"><Strong>"Work to become, not to acquire."</Strong>
+        <p class="description"><strong>"Work to become, not to acquire."</strong>
           I believe in learning by building. This portfolio is a reflection of growth, curiosity and a commitment to impactful engineering/technology that solve human problems.
         </p>
         <a href="contact.html" class="btn">Contact Me</a>
@@ -42,5 +43,13 @@
   </section>
 
   <footer>&copy; 2025 Rufus Muthusamy. All rights reserved.</footer>
+
+  <!-- 📱 Mobile Menu Script -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
