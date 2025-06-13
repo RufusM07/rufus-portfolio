@@ -9,8 +9,9 @@
 <body>
   <header>
     <h2>Rufus Muthusamy</h2>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
     <nav>
-      <ul>
+      <ul id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="education.html">Education</a></li>
@@ -30,13 +31,21 @@
       <div class="about-content">
         <h1>About Me</h1>
         <p class="bio">
-        Hi there! I am a detail-oriented and curious engineer who loves building things that make a real difference. I’m currently pursuing my Master’s in Electrical and Computer Engineering at Rutgers University specializing in Computer Engineering. Earlier, I earned my Bachelor’s degree in Electronics and Communication Engineering from Karunya Institute of Technology and Sciences where my passion for automation and problem-solving really took off. In the past, I worked as a Programmer Analyst at Cognizant Technology Solutions, gaining hands-on experience with manual and automated software testing tools like Java, Selenium and TestNG contributing to system integrations & validation for enterprise platforms.
-        I enjoy working across the full spectrum of technology that is from designing circuits & embedded systems to developing software and ensuring quality through S/W testing. More recently, I’ve been expanding my skills into Machine Learning and AI building intelligent models and systems that solve real world problems. I’m passionate about bridging hardware precision, software intelligence and AI innovation to create smarter, more reliable technologies. I’m always eager to learn, take on new challenges and collaborate on projects that make a lasting impact.
+          Hi there! I am a detail-oriented and curious engineer who loves building things that make a real difference. I’m currently pursuing my Master’s in Electrical and Computer Engineering at Rutgers University specializing in Computer Engineering. Earlier, I earned my Bachelor’s degree in Electronics and Communication Engineering from Karunya Institute of Technology and Sciences where my passion for automation and problem-solving really took off. In the past, I worked as a Programmer Analyst at Cognizant Technology Solutions, gaining hands-on experience with manual and automated software testing tools like Java, Selenium and TestNG contributing to system integrations & validation for enterprise platforms.
+          I enjoy working across the full spectrum of technology that is from designing circuits & embedded systems to developing software and ensuring quality through S/W testing. More recently, I’ve been expanding my skills into Machine Learning and AI building intelligent models and systems that solve real world problems. I’m passionate about bridging hardware precision, software intelligence and AI innovation to create smarter, more reliable technologies. I’m always eager to learn, take on new challenges and collaborate on projects that make a lasting impact.
         </p>
       </div>
     </div>
   </section>
 
   <footer>&copy; 2025 Rufus Muthusamy. All rights reserved.</footer>
+
+  <!-- 📱 Mobile Menu Script -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
