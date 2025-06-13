@@ -9,8 +9,9 @@
 <body>
   <header>
     <h2>Rufus Muthusamy</h2>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
     <nav>
-      <ul>
+      <ul id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="education.html">Education</a></li>
@@ -40,6 +41,7 @@
             <h3 id="small">Rutgers University, New Brunswick</h3>
           </div>
         </div>
+
         <div class="timeline-item">
           <div class="timeline-img">
             <img src="images/karunya.jpg" alt="Karunya Logo" />
@@ -57,5 +59,13 @@
   </section>
 
   <footer>&copy; 2025 Rufus Muthusamy. All rights reserved.</footer>
+
+  <!-- 📱 Mobile Menu Script -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
