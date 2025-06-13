@@ -45,39 +45,33 @@ nav a:hover {
   height: 100vh;
   margin-top: 64px;
 }
-
 .hero-left, .hero-right {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .hero-left {
   background-color: #000000;
   color: white;
   padding: 2rem;
 }
-
 .hero-content {
   max-width: 600px;
   margin: 0 auto;
 }
-
 .hero-content h1 {
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
   line-height: 1.2;
 }
-
 .hero-content .subheading {
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 1.5rem;
   color: #ccc;
 }
-
 .hero-content .description {
   font-size: 1rem;
   font-weight: 300;
@@ -85,7 +79,6 @@ nav a:hover {
   margin-bottom: 2rem;
   color: #ddd;
 }
-
 .hero-content .btn {
   display: inline-block;
   background-color: transparent;
@@ -100,8 +93,6 @@ nav a:hover {
   background-color: white;
   color: #111;
 }
-
-/* Right Side Image */
 .hero-right {
   height: 100%;
   overflow: hidden;
@@ -139,6 +130,7 @@ footer {
     height: 300px;
   }
 }
+
 /* Accomplishments Section */
 .accomplishments-section {
   background-image: url('../images/hardware-background.jpg');
@@ -161,14 +153,12 @@ footer {
   color: #ccc;
   margin-bottom: 2rem;
 }
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
 }
-
 .card {
   background-color: #1e1e1e;
   border-radius: 10px;
@@ -188,7 +178,6 @@ footer {
   color: #ccc;
   font-size: 0.95rem;
 }
-
 .explore-button {
   text-align: center;
 }
@@ -206,56 +195,48 @@ footer {
   background: white;
   color: #111;
 }
+
 /* About Section Split Layout */
 .about-section {
   display: flex;
   height: 99vh;
   margin-top: 30px;
 }
-
 .about-left, .about-right {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .about-left img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .about-right {
   background-color: #111;
   color: white;
   padding: 2rem;
 }
-
 .about-content {
   max-width: 600px;
   padding: 2rem;
 }
-
 .about-content h1 {
   font-size: 2.8rem;
   margin-bottom: 1rem;
 }
-
 .about-content .subheading {
   font-size: 1.2rem;
   color: #aaa;
   margin-bottom: 1rem;
 }
-
 .about-content .bio {
   font-size: 0.99rem;
   color: #ddd;
   text-align: justify;
   line-height: 1.7;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
@@ -268,9 +249,10 @@ footer {
     font-size: 2rem;
   }
 }
+
 /* Education Section */
 .education-section {
-  background-color: #8ad6a7; /* green background */
+  background-color: #8ad6a7;
   background-image: url('../images/education-bg.jpg');
   padding: 6rem 2rem 6rem;
   min-height: 100vh;
@@ -285,15 +267,12 @@ footer {
   margin-bottom: 0.5rem;
   color: black;
 }
-
 .divider {
   width: 80%;
   height: 1px;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 0 auto 3rem auto;
 }
-
-/* Timeline Style */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -302,13 +281,11 @@ footer {
   padding-left: 2rem;
   border-left: 3px solid #0d5c4b;
 }
-
 .timeline-item {
   display: flex;
-  align-items: center; /* vertical alignment fix */
+  align-items: center;
   gap: 1.5rem;
 }
-
 .timeline-img {
   width: 80px;
   height: 80px;
@@ -319,16 +296,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0; /* prevent shrinking on smaller screens */
+  flex-shrink: 0;
 }
-
 .timeline-img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   border-radius: 50%;
 }
-
 .timeline-content {
   background-color: white;
   border-radius: 10px;
@@ -336,14 +311,13 @@ footer {
   flex: 1;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
 .timeline-content .year {
   color: #0d5c4b;
   font-weight: bold;
   font-size: 0.99rem;
 }
 .timeline-content .gpa {
-    color: #0d5c4b;
+  color: #0d5c4b;
   font-weight: bold;
   font-size: 0.99rem;
   float: right;
@@ -363,8 +337,6 @@ footer {
   font-size: 0.95rem;
   color: #333;
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
   .timeline-item {
     flex-direction: column;
@@ -407,8 +379,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.3);
   margin: 0 auto 3rem auto;
 }
-
-/* Timeline Layout */
 .experience-section .timeline {
   display: flex;
   flex-direction: column;
@@ -417,13 +387,11 @@ footer {
   padding-left: 2rem;
   border-left: 3px solid #00bcd4;
 }
-
 .experience-section .timeline-item {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
-
 .experience-section .timeline-img {
   width: 80px;
   height: 80px;
@@ -436,14 +404,12 @@ footer {
   justify-content: center;
   flex-shrink: 0;
 }
-
 .experience-section .timeline-img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   border-radius: 50%;
 }
-
 .experience-section .timeline-content {
   background-color: #1e1e1e;
   border-radius: 10px;
@@ -451,13 +417,11 @@ footer {
   flex: 1;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-
 .experience-section .timeline-content .year {
   color: #00bcd4;
   font-weight: bold;
   font-size: 0.95rem;
 }
-
 .experience-section .timeline-content h3 {
   font-size: 1.2rem;
   margin: 0.5rem 0;
@@ -479,8 +443,6 @@ footer {
   margin-bottom: 0.5rem;
   list-style-type: disc;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
   .experience-section .timeline-item {
     flex-direction: column;
@@ -492,36 +454,31 @@ footer {
     border-left: none;
   }
 }
+
 /* ===== General Projects Section ===== */
 .projects-section {
   padding: 6rem 2rem;
   min-height: 100vh;
   color: rgb(94, 93, 93);
 }
-
-/* 🎯 Only apply background to the landing page */
 .projects-landing {
-  background-image: url('../images/projects-bg.jpg'); /* ✅ Correct path */
+  background-image: url('../images/projects-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-/* Heading styling */
 .projects-section h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: rgb(0, 0, 0);
 }
-
 .projects-section .subheading {
   text-align: center;
   font-size: 1.1rem;
   color: #000000;
   margin-bottom: 2rem;
 }
-
 .project-card-grid {
   display: flex;
   flex-wrap: wrap;
@@ -529,7 +486,6 @@ footer {
   gap: 2rem;
   margin-top: 2rem;
 }
-
 .project-card {
   background-color: rgba(217, 216, 216, 0.8);
   padding: 2rem;
@@ -541,22 +497,18 @@ footer {
   box-shadow: 0 4px 12px rgba(245, 229, 229, 0.3);
   transition: transform 0.2s ease;
 }
-
 .project-card:hover {
   transform: translateY(-5px);
 }
-
 .project-card h2 {
   margin-bottom: 0.5rem;
   font-size: 1.4rem;
   color: rgb(7, 7, 7);
 }
-
 .project-card p {
   font-size: 1rem;
   color: #454545;
 }
-
 
 /* ===== Hardware Projects Section ===== */
 .hardware-section {
@@ -565,21 +517,18 @@ footer {
   padding: 6rem 2rem;
   color: white;
 }
-
 .hardware-section h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: rgb(255, 255, 255);
 }
-
 .hardware-section .subheading {
   text-align: center;
   font-size: 1.1rem;
   color: #bbb;
   margin-bottom: 2rem;
 }
-
 .portfolio-link {
   display: inline-block;
   text-align: center;
@@ -590,12 +539,10 @@ footer {
   margin: 1rem 0;
   transition: color 0.3s ease;
 }
-
 .portfolio-link:hover {
   color: #4dd0e1;
   text-decoration: underline;
 }
-
 .hardware-project-card {
   background-color: rgba(255, 255, 255, 0.05);
   display: flex;
@@ -607,51 +554,45 @@ footer {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
 }
-
 .hardware-project-card:hover {
   transform: scale(1.02);
 }
-
 .hardware-project-card img {
   width: 320px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
-
 .project-info {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .hardware-project-card h2 {
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
-
 .date-range {
   font-size: 0.9rem;
   color: #00bcd4;
   font-weight: normal;
   margin-left: 10px;
 }
+
 /* === Software AI Projects Section (matches hardware style) === */
 .ai-projects-section {
-  background-image: url('../images/hardware-background.jpg'); /* or ai-background.jpg if you want */
+  background-image: url('../images/hardware-background.jpg');
   background-color: #0a0a0a;
   padding: 6rem 2rem;
   color: white;
 }
-
 .ai-projects-section h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: rgb(255, 255, 255);
 }
-
 .ai-projects-section .portfolio-link {
   display: inline-block;
   font-size: 1rem;
@@ -661,12 +602,10 @@ footer {
   margin: 1rem 0;
   transition: color 0.3s ease;
 }
-
 .ai-projects-section .portfolio-link:hover {
   color: #4dd0e1;
   text-decoration: underline;
 }
-
 .ai-project-card {
   background-color: rgba(255, 255, 255, 0.05);
   display: flex;
@@ -678,36 +617,32 @@ footer {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
 }
-
 .ai-project-card:hover {
   transform: scale(1.02);
 }
-
 .ai-project-card img {
   width: 320px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
-
 .ai-project-card .project-info {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .ai-project-card h2 {
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
-
 .ai-project-card .date-range {
   font-size: 0.9rem;
   color: #00bcd4;
   font-weight: normal;
   margin-left: 10px;
 }
+
 /* ===== Software Testing Projects Section ===== */
 .testing-section {
   background-image: url('../images/hardware-background.jpg');
@@ -715,14 +650,12 @@ footer {
   padding: 6rem 2rem;
   color: white;
 }
-
 .testing-section h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: rgb(255, 255, 255);
 }
-
 .testing-section .portfolio-link {
   display: inline-block;
   text-align: center;
@@ -733,12 +666,10 @@ footer {
   margin: 1rem 0;
   transition: color 0.3s ease;
 }
-
 .testing-section .portfolio-link:hover {
   color: #4dd0e1;
   text-decoration: underline;
 }
-
 .testing-project-card {
   background-color: rgba(255, 255, 255, 0.05);
   display: flex;
@@ -750,49 +681,43 @@ footer {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
 }
-
 .testing-project-card:hover {
   transform: scale(1.02);
 }
-
 .testing-project-card img {
   width: 320px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
-
 .testing-project-card .project-info {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .testing-project-card h2 {
   font-size: 1.4rem;
   margin-bottom: 10px;
   color: white;
 }
-
 .testing-project-card li {
   color: #e2e2e2;
   line-height: 1.6;
 }
-
 .date-range {
   font-size: 0.9rem;
   color: #00bcd4;
   font-weight: normal;
   margin-left: 10px;
 }
+
 /* ===== Contact Section ===== */
 .contact-section {
   padding: 5rem 2rem;
-  background-image: url('../images/education-bg.jpg'); /* or ai-background.jpg if you want */
+  background-image: url('../images/education-bg.jpg');
   background-color: #f5f7fa;
 }
-
 .contact-title {
   text-align: center;
   font-size: 2rem;
@@ -800,7 +725,6 @@ footer {
   color: #030303;
   margin-bottom: 2rem;
 }
-
 .contact-box {
   background-color: #ffffff;
   max-width: 400px;
@@ -810,17 +734,47 @@ footer {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   color: #333;
 }
-
 .contact-box p {
   font-size: 1rem;
   margin-bottom: 1.2rem;
 }
-
 .contact-box a {
   color: #0288d1;
   text-decoration: none;
 }
-
 .contact-box a:hover {
   text-decoration: underline;
+}
+/* === Mobile Nav Toggle === */
+.mobile-menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    z-index: 999;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0.8rem 0;
+  }
 }
