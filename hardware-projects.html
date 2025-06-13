@@ -9,8 +9,9 @@
 <body>
   <header>
     <h2>Rufus Muthusamy</h2>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
     <nav>
-      <ul>
+      <ul id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="education.html">Education</a></li>
@@ -22,7 +23,7 @@
     </nav>
   </header>
 
-<section class="projects-section hardware-section">
+  <section class="projects-section hardware-section">
     <div class="container">
       <h1>Hardware Projects</h1>
       <a href="docs/Rufus_Portfolio_Feb_2025_compressed.pdf" target="_blank" class="portfolio-link">📄 Full Portfolio (PDF) - More Detailed description of these projects</a>
@@ -71,10 +72,17 @@
           <li>Simulated analog effects in Verilog using modular sub-blocks (charge pump, current mirror) and validated behavior in linear and saturation states with waveform outputs.</li>
         </div>
       </div>
-
     </div>
   </section>
 
   <footer>&copy; 2025 Rufus Muthusamy. All rights reserved.</footer>
+
+  <!-- 📱 Mobile Menu Script -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
